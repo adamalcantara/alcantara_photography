@@ -12,7 +12,7 @@ class Nav extends Component {
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
                         <div id="dropdown">
-                            <button id="dropbtn">Portfolio</button>
+                            <li id="dropbtn">Portfolio</li>
                             <div id="dropdown-content">
                                 <a href="">Portraits</a>
                                 <a href="">Headshots</a>
