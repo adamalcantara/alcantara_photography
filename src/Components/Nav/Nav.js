@@ -8,10 +8,17 @@ class Nav extends Component {
                 <img src={logo} alt="Logo"></img>
                 <div>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <div id="dropdown">
+                            <button id="dropbtn">Portfolio</button>
+                            <div id="dropdown-content">
+                                <a href="">Portraits</a>
+                                <a href="">Headshots</a>
+                                <a href="">Weddings</a>
+                            </div>
+                        </div>
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </div>
             </div>
