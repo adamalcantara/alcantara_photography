@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import logo from "../../img/alcantaralogo.png"
+import "./Nav.css"
 
 class Nav extends Component {
     render() {
         return (
             <div>
-                <img src={logo} alt="Logo"></img>
+                <img src={logo} alt="Logo" id="logo"></img>
                 <div>
                     <ul>
                         <li><a href="">Home</a></li>
