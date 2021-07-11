@@ -3,12 +3,24 @@
     margin-top: 30px;
 }
 
+#nav {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.menuitem {
+    text-decoration: none;
+    color: black;
+    
 }
 
 #dropdown-content {

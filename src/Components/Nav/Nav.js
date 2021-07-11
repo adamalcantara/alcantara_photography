@@ -7,19 +7,19 @@ class Nav extends Component {
         return (
             <div>
                 <img src={logo} alt="Logo" id="logo"></img>
-                <div>
+                <div id="nav">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="" className="menuitem">Home</a></li>
+                        <li><a href="" className="menuitem">About</a></li>
                         <div id="dropdown">
-                            <li id="dropbtn">Portfolio</li>
+                            <li id="dropbtn" className="menuitem">Portfolio</li>
                             <div id="dropdown-content">
                                 <a href="">Portraits</a>
                                 <a href="">Headshots</a>
                                 <a href="">Weddings</a>
                             </div>
                         </div>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="" className="menuitem">Contact</a></li>
                     </ul>
                 </div>
             </div>
