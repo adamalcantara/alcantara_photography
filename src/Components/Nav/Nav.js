@@ -6,6 +6,14 @@ class Nav extends Component {
         return (
             <div>
                 <img src={logo} alt="Logo"></img>
+                <div>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Portfolio</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
             </div>
         );
     }
