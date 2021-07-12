@@ -1,6 +1,13 @@
 #logo {
     width: 400px;
+    height: 200px;
     margin-top: 30px;
+}
+
+#logosmall {
+    display: none;
+    width: 100px;
+    height: 65px;
 }
 
 #nav {
@@ -58,3 +65,12 @@ a:hover {
 }
 
 #dropdown:hover #dropbtn {color: grey;}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        display: none;
+    }
+    #logosmall {
+        display: block;
+    }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from "../../img/alcantaralogo.png"
+import logosmall from "../../img/alcantaralogosmall.png"
 import "./Nav.css"
 
 class Nav extends Component {
@@ -7,6 +8,10 @@ class Nav extends Component {
         return (
             <div>
                 <img src={logo} alt="Logo" id="logo"></img>
+                <img src={logosmall} alt="Small logo" id="logosmall"></img>
+                <div>
+                    <i></i>
+                </div>
                 <div id="nav">
                     <ul>
                         <li><a href="" className="menuitem">Home</a></li>
