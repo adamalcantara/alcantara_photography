@@ -11,11 +11,7 @@
 }
 
 #mobileNav {
-    display: flex;
-    width: 100vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: lightgrey;
+    display: none;
 }
 
 .burger {
@@ -24,6 +20,7 @@
 
 .fa-times {
     font-size: 40px;
+    margin-right: 2px;
 }
 
 .fa-bars {
@@ -73,6 +70,10 @@ a:hover {
     display: block;
 }
 
+#mobiledrop {
+    display: none;
+}
+
 #dropdown-content a:hover {background-color: #ddd;}
 
 #dropdown:hover #dropdown-content {
@@ -94,6 +95,13 @@ a:hover {
         display: block;
         margin-left: 10px;
     }
+    #mobileNav {
+        display: flex;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(242, 242, 242);
+    }
     #nav {
         width: 100%;
     }
@@ -102,5 +110,14 @@ a:hover {
         position: absolute;
         top: 20px;
         right: 20px;
+    }
+    ul {
+        flex-direction: column;
+    }
+    #dropdown {
+        display: none;
+    }
+    #mobiledrop {
+        display: block;
     }
 }

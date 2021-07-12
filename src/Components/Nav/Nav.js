@@ -33,6 +33,11 @@ class Nav extends Component {
                                 <a href="">Weddings</a>
                             </div>
                         </div>
+                        <div id="mobiledrop">
+                            <li><a href="" className="menuitem">Portraits</a></li>
+                            <li><a href="" className="menuitem">Headshots</a></li>
+                            <li><a href="" className="menuitem">Weddings</a></li>
+                        </div>
                         <li><a href="" className="menuitem">Contact</a></li>
                     </ul>
                 </div>
