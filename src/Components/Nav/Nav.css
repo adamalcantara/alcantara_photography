@@ -135,6 +135,7 @@ a:hover {
     }
     li {
         margin-bottom: 30px;
+        text-align: center;
     }
     #dropdown {
         display: none;
