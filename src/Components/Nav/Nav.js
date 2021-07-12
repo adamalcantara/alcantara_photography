@@ -4,6 +4,12 @@ import logosmall from "../../img/alcantaralogosmall.png"
 import "./Nav.css"
 
 class Nav extends Component {
+    state = {clicked: false}
+
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
+
     render() {
         return (
             <div>
