@@ -13,7 +13,9 @@ class Nav extends Component {
     render() {
         return (
             <div>
+                <div id='header'>
                 <img src={logo} alt="Logo" id="logo"></img>
+                </div>
                 <div id="mobileNav">
                     <img src={logosmall} alt="Small logo" id="logosmall"></img>
                     <div className="burger" onClick={this.handleClick}>
