@@ -27,7 +27,7 @@
     font-size: 40px;
 }
 
-#nav {
+.nav {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -97,22 +97,37 @@ a:hover {
     }
     #mobileNav {
         display: flex;
-    width: 100vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(242, 242, 242);
+        width: 100vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 242, 242);
     }
-    #nav {
+    .nav {
         width: 100%;
+        left: -100%;
+        position: absolute;
+        opacity: 0;
+        background-color: lightgrey;
+        transition: all 0.5s ease;
+    }
+    .nav.active {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
     }
     .burger {
         display: block;
         position: absolute;
-        top: 20px;
+        top: 22px;
         right: 20px;
     }
     ul {
         flex-direction: column;
+        margin-top: 0px;
+    }
+    li {
+        margin-bottom: 30px;
     }
     #dropdown {
         display: none;

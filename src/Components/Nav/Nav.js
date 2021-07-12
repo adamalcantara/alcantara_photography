@@ -21,7 +21,7 @@ class Nav extends Component {
                     </div>
                 </div>
 
-                <div id="nav">
+                <div className={this.state.clicked ? 'nav active' : 'nav'}>
                     <ul>
                         <li><a href="" className="menuitem">Home</a></li>
                         <li><a href="" className="menuitem">About</a></li>
