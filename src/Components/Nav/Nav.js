@@ -15,8 +15,8 @@ class Nav extends Component {
             <div>
                 <img src={logo} alt="Logo" id="logo"></img>
                 <img src={logosmall} alt="Small logo" id="logosmall"></img>
-                <div>
-                    <i></i>
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <div id="nav">
                     <ul>
