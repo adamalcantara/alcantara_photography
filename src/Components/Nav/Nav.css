@@ -17,6 +17,10 @@ ul {
     font-size: 30px;
 }
 
+a:hover {
+    color: grey
+}
+
 .menuitem {
     text-decoration: none;
     color: black;
@@ -25,9 +29,11 @@ ul {
 
 #dropdown-content {
     display: none;
-    position: absolute;
+    /* position: absolute; */
+    position:fixed;
+    margin-left: -45px;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
