@@ -4,7 +4,7 @@ import logosmall from "../../img/alcantaralogosmall.png"
 import "./Nav.css"
 
 class Nav extends Component {
-    state = {clicked: false}
+    state = { clicked: false }
 
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
@@ -14,10 +14,13 @@ class Nav extends Component {
         return (
             <div>
                 <img src={logo} alt="Logo" id="logo"></img>
-                <img src={logosmall} alt="Small logo" id="logosmall"></img>
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                <div id="mobileNav">
+                    <img src={logosmall} alt="Small logo" id="logosmall"></img>
+                    <div className="burger" onClick={this.handleClick}>
+                        <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    </div>
                 </div>
+
                 <div id="nav">
                     <ul>
                         <li><a href="" className="menuitem">Home</a></li>
