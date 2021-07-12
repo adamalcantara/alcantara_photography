@@ -13,6 +13,9 @@
 #mobileNav {
     display: flex;
     width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
 }
 
 .burger {
@@ -89,6 +92,7 @@ a:hover {
     }
     #logosmall {
         display: block;
+        margin-left: 10px;
     }
     #nav {
         width: 100%;
@@ -96,7 +100,7 @@ a:hover {
     .burger {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 20px;
+        right: 20px;
     }
 }
