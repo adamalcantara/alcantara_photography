@@ -17,11 +17,13 @@ label {
 }
 
 #email {
-    width: 30%
+    height: 30px;
+    font-size: 17px;
 }
 
 #message {
     height: 100px;
+    font-size: 17px;
 }
 
 #submitBtn {

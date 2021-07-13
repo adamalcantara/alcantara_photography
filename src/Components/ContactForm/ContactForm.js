@@ -17,6 +17,7 @@ function ContactForm() {
         id="email"
         type="email" 
         name="email"
+        placeholder="Email Address"
       />
       <ValidationError 
         prefix="Email" 
@@ -30,6 +31,7 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
+        placeholder="Enter your message here."
       />
       <ValidationError 
         prefix="Message" 
