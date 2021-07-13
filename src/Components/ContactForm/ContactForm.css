@@ -1,0 +1,31 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactHeader {
+    text-align: center;
+    font-size: 25px;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 30%
+}
+
+#message {
+    height: 100px;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    width: 85px;
+    font-size: 17px;
+}

@@ -1,13 +1,14 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import "./ContactForm.css"
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("moqyndap");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p id="thankYou">Thanks for reaching out to us! We will be in touch shortly</p>;
   }
   return (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} id="form">
           <p id="contactHeader">Please use the form below to contact us. We look forward to hearing from you!</p>
       <label htmlFor="email">
         Email Address
@@ -22,6 +23,7 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
+      <br></br>
       <label htmlFor="message">
         Message
       </label>
@@ -34,7 +36,7 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting} id="submitBtn">
         Submit
       </button>
     </form>
